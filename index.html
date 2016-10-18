@@ -9,7 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -75,6 +75,10 @@
       </div><!--Termina el row-->
       
       <!-- Thumbnails -->
+      <div class="parallax">
+        <img src="img/ImagenPar1.jpg"></img>
+      </div>
+      
       <div class="row">
         <h1>Noticias Zubiri - Manteo</h1>
         <div class="col-sm-6 col-md-4">
@@ -82,8 +86,8 @@
             <img src="img/ImagenZubiri3.jpg" alt="180x200">
             <div class="caption">
               <h3>Premios Don-Bosco</h3>
-              <p>"eOntzia" proiektuak "Premio Nacional Don Bosco a la innovación" lehiaketan 1. saria lortu du TICs arloan. Zorionak proiektu hontan parte hartu duten guztioi.</p>
-              <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+              <p id="not1"class="collapse">"eOntzia" proiektuak "Premio Nacional Don Bosco a la innovación" lehiaketan 1. saria lortu du TICs arloan. Zorionak proiektu hontan parte hartu duten guztioi.</p>
+              <p><a  class="btn btn-default" data-toggle="collapse" data-target="#not1"  role="button">Leer</a></p>
             </div>
           </div>
         </div>
@@ -93,8 +97,8 @@
             <img src="img/ImagenZubiri.jpg" alt="180x200">
             <div class="caption">
               <h3>Turismoko ikasleak Washington-en</h3>
-              <p>Turismoko bi ikasle, Garazi eta Mireia, Washinton-eko Folklife Festival-ean lanean egon dira. Argazkian Donostia2016-ko kamixetekin ikusi ditzakegu. </p>
-              <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+              <p id="not2" class="collapse">Turismoko bi ikasle, Garazi eta Mireia, Washinton-eko Folklife Festival-ean lanean egon dira. Argazkian Donostia2016-ko kamixetekin ikusi ditzakegu. </p>
+              <p><a class="btn btn-default" data-toggle="collapse" data-target="#not2" role="button">Leer</a></p>
             </div>
           </div>
         </div>
@@ -104,12 +108,16 @@
             <img src="img/ImagenZubiri2.jpg" alt="180x200">
             <div class="caption">
               <h3>Erasmus+ Italian</h3>
-              <p>CONFESERCENTI ( Italiako Zerbitzu enpresen elkarte nazionalarekin elkartu ginen. Aldi berean enpresak bisitatu genituen formakuntza beharrak zeintzuk diren zuzenean ezagutzeko. </p>
-              <p><a href="#" class="btn btn-default" role="button">Button</a></p>
+              <p id="not3" class="collapse">CONFESERCENTI ( Italiako Zerbitzu enpresen elkarte nazionalarekin elkartu ginen. Aldi berean enpresak bisitatu genituen formakuntza beharrak zeintzuk diren zuzenean ezagutzeko. </p>
+              <p><a class="btn btn-default" data-toggle="collapse" data-target="#not3" role="button">Leer</a></p>
             </div>
           </div>
         </div>
       </div><!--Termina thumbnails-->
+      
+      <div class="parallax">
+        <img src="img/ImagenPar2.jpg"></img>
+      </div>
       
       <div class="row">
         <img src="img/footer.png" class="img-responsive"></img>
