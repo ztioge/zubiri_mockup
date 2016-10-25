@@ -49,9 +49,9 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navBarZubiri">
               <ul class="nav navbar-nav">
-                <li><a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Nosotros <span class="sr-only">(current)</span></a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Formacion</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Proyectos</a></li>
+                <li><a data-toggle="modal" data-target="#modalNosotros"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Nosotros <span class="sr-only">(current)</span></a></li>
+                <li><a data-toggle="modal" data-target="#modalFormacion"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Formacion</a></li>
+                <li><a data-toggle="modal" data-target="#modalProyect"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Proyectos</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
@@ -114,7 +114,7 @@
         </div>
       </div><!--Termina thumbnails-->
       
-        <div class="parallax-window" data-parallax="scroll" data-image-src="img/ImagenPar2.jpg">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="img/ZurriolaHondartza.jpg">
         </div>
       
       <div class="row">
@@ -122,7 +122,7 @@
       </div>
     
        <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
+  <div class="modal fade" id="modalNosotros" role="dialog">
     <div class="modal-dialog">
     
       <!-- Modal content-->
@@ -135,7 +135,45 @@
           <p>Somos el Insituto Xabier Zubiri-Manteo de Donostia-San Sebastian</p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="modalFormacion" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Formacion</h4>
+        </div>
+        <div class="modal-body">
+          <p>Puedes estudiar desde primaria hasta Bachiller, y hacer algun Grado Medio o Superior de alguna de las ramas que tenemos.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="modalProyect" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Proyectos</h4>
+        </div>
+        <div class="modal-body">
+          <p>Antes de terminar cualquiera de los grados, el alumno debera de realizar un proyecto para obtener la titulacion.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
         </div>
       </div>
     </div>
