@@ -18,3 +18,11 @@
 .thumbnail{
     background-color:rgb(0,155,226);
 }
+
+footer{
+    background:green; 
+    text-align:center;
+    width:957px;
+    height:30px;
+    margin-left:15px;
+}
